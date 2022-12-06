@@ -41,12 +41,12 @@ keymap.set("n", "<S-w>", ":bdelete<CR>", opts)
 keymap.set("n", "<leader>e", ":NvimTreeToggle<CR>") -- toggle file explorer
 
 -- telescope keymaps
-local telescope_builtin = require('telescope.builtin')
-keymap.set('n', '<leader>ff', telescope_builtin.find_files, {})
-keymap.set('n', '<leader>fs', telescope_builtin.grep_string, {})
-keymap.set('n', '<leader>fg', telescope_builtin.live_grep, {})
-keymap.set('n', '<leader>fb', telescope_builtin.buffers, {})
-keymap.set('n', '<leader>fh', telescope_builtin.help_tags, {})
+local telescope_builtin = require("telescope.builtin")
+keymap.set("n", "<leader>ff", telescope_builtin.find_files, {})
+keymap.set("n", "<leader>fs", telescope_builtin.grep_string, {})
+keymap.set("n", "<leader>fg", telescope_builtin.live_grep, {})
+keymap.set("n", "<leader>fb", telescope_builtin.buffers, {})
+keymap.set("n", "<leader>fh", telescope_builtin.help_tags, {})
 
 -- Move text up and down
 keymap.set("x", "J", ":move '>+1<CR>gv-gv", opts)

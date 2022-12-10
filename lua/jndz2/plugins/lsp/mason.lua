@@ -20,11 +20,13 @@ mason_lspconfig.setup({
         "gopls",
         "rust_analyzer",
         "sumneko_lua",
+        "yamlls",
     },
 })
 
 mason_null_ls.setup({
     ensure_installed = {
         "luaformatter",
+        "prettier",
     },
 })

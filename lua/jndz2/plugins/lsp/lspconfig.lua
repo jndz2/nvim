@@ -138,3 +138,21 @@ lspconfig["gopls"].setup({
     on_attach = on_attach,
     settings = gopls_opts,
 })
+
+-- yamlls
+local yamlls_opts = {
+    yaml = {
+        validate = true,
+        format = { enable = true },
+        hover = true,
+        schemas = {
+            ["https://json.schemastore.org/github-workflow.json"] = "/.github/workflows/*",
+        },
+    },
+}
+
+lspconfig["yamlls"].setup({
+    capabilities = capabilities,
+    on_attach = on_attach,
+    settings = yamlls_opts,
+})

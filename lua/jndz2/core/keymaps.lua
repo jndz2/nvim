@@ -49,7 +49,5 @@ keymap.set("n", "<leader>fb", telescope_builtin.buffers, {})
 keymap.set("n", "<leader>fh", telescope_builtin.help_tags, {})
 
 -- Move text up and down
-keymap.set("x", "J", ":move '>+1<CR>gv-gv", opts)
-keymap.set("x", "K", ":move '<-2<CR>gv-gv", opts)
-keymap.set("x", "<A-j>", ":move '>+1<CR>gv-gv", opts)
-keymap.set("x", "<A-k>", ":move '<-2<CR>gv-gv", opts)
+keymap.set("v", "J", ":m '>+1<CR>gv=gv")
+keymap.set("v", "K", ":m '<-2<CR>gv=gv")

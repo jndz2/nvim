@@ -94,7 +94,7 @@ local rust_tools_opts = {
 rust_tools.setup(rust_tools_opts)
 
 -- Lua Lsp (with special settings)
-lspconfig["sumneko_lua"].setup({
+lspconfig["lua_ls"].setup({
     capabilities = capabilities,
     on_attach = on_attach,
     settings = {

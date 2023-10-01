@@ -19,7 +19,6 @@ mason_lspconfig.setup({
     ensure_installed = {
         "gopls",
         "rust_analyzer",
-        "sumneko_lua",
         "yamlls",
     },
 })

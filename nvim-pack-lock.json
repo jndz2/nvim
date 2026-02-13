@@ -1,0 +1,24 @@
+{
+  "plugins": {
+    "gitsigns.nvim": {
+      "rev": "42d6aed4e94e0f0bbced16bbdcc42f57673bd75e",
+      "src": "https://github.com/lewis6991/gitsigns.nvim",
+      "version": "'42d6aed4e94e0f0bbced16bbdcc42f57673bd75e'"
+    },
+    "nvim": {
+      "rev": "cb5665990a797b102715188e73c44c3931b3b42e",
+      "src": "https://github.com/catppuccin/nvim",
+      "version": "'cb5665990a797b102715188e73c44c3931b3b42e'"
+    },
+    "nvim-treesitter": {
+      "rev": "45a07f869b0cffba342276f2c77ba7c116d35db8",
+      "src": "https://github.com/nvim-treesitter/nvim-treesitter",
+      "version": "'45a07f869b0cffba342276f2c77ba7c116d35db8'"
+    },
+    "nvim-treesitter-textobjects": {
+      "rev": "a0e182ae21fda68c59d1f36c9ed45600aef50311",
+      "src": "https://github.com/nvim-treesitter/nvim-treesitter-textobjects",
+      "version": "'a0e182ae21fda68c59d1f36c9ed45600aef50311'"
+    }
+  }
+}

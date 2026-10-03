@@ -1,5 +1,13 @@
 ---@type vim.lsp.Config
 return {
   cmd = { 'gopls' },
-  filetypes = { 'go', 'gomod' },
+  filetypes = {
+    'go',
+    'gomod',
+  },
+  root_markers = {
+    'go.work',
+    'go.mod',
+    'go.sum',
+  },
 }

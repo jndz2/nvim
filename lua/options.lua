@@ -1,4 +1,5 @@
 local opt = vim.opt
+
 opt.guicursor = "i:block" -- Use block cursor in insert mode
 opt.colorcolumn = "80" -- Highlight column 80
 opt.signcolumn = "yes:1" -- Always show sign column
@@ -27,5 +28,3 @@ opt.winborder = "rounded" -- Use rounded borders for windows
 opt.hlsearch = false -- Disable highlighting of search results
 
 vim.cmd.filetype("plugin indent on") -- Enable filetype detection, plugins, and indentation
-
-vim.cmd.colorscheme("catppuccin")
